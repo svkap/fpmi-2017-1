@@ -1,0 +1,6 @@
+- login page with 1 user - admin
+- Page to create new albums accessible only for admin
+- edit album (change album name, add/delege pictures) - accessible only for admin
+- picture - name, location, date
+- album - name, last modified date, list with pictures
+- all visitors can browse albums and pictures

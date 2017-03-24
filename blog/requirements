@@ -1,0 +1,5 @@
+- user login page
+- user can create blog article with text, publishing date, article headline, unique URL, how many times it was read, category.
+- article rating - visitors can vote for any article in scale 1 to 5. If the same visitor tries to vote again then we alter the previous vote.
+- page which lists all articles, visitor can click and be redirected to article
+- order by publishing date, filter by category, order by highest rated

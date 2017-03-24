@@ -1,0 +1,7 @@
+- login page with 1 user - admin
+- page to create surveys accessible only for admin
+- edit/add questions to survey accessible only for admin
+- each question has multiple choices (a, b, c, d...) and only one correct answer
+- user can start any survey, fill his/her name (optional), additional info field (optional)
+- when completed each survey stores in database completion time, name (if present), additional info (if present), correct answers count, wrong answers count, wrong answered questions
+- the surveys may be hidden - not shown in surveys list. Each survey has an unique URL.

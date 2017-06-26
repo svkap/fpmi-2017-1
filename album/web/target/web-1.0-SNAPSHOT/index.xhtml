@@ -1,0 +1,26 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+</h:head>
+<h:body>
+	<h:form>
+		<p:outputLabel value="Login success! Welcome to the system!"></p:outputLabel>
+
+		<h:form enctype="multipart/form-data" style="width:500px">
+			<p:growl id="msg"></p:growl>
+			<p:fileUpload value="#{fileUploadManagedBean.file}"
+						  invalidSizeMessage="Error: Invalid Size"
+						  invalidFileMessage="Error: Invalid File Type"
+						  fileLimitMessage="Error: Invalid File Limit"
+						  mode="advanced" multiple="true" fileLimit="3"
+						  allowTypes="/(\.|\/)(gif|jpe?g|png)$/"
+						  fileUploadListener="#{fileUploadManagedBean.fileUploadListener}"
+						  update="msg"></p:fileUpload>
+		</h:form>
+	</h:form>
+</h:body>
+</html>
+
+

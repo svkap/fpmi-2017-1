@@ -1,0 +1,5 @@
+com\kris\entity\Album.class
+com\kris\entity\User.class
+com\kris\dao\AlbumDAO.class
+com\kris\dao\UserDao.class
+com\kris\entity\Picture.class

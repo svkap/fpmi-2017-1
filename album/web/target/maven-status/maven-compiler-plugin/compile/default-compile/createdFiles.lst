@@ -1,0 +1,6 @@
+com\kris\managedbeans\FileUploadAdvancedManagedBean.class
+com\kris\managedbeans\FileUploadManagedBean.class
+com\kris\utils\SessionUtils.class
+com\kris\utils\DataConnect.class
+com\kris\authorization\AuthorizationFilter.class
+com\kris\managedbeans\LoginManagedBean.class
